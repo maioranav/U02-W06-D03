@@ -8,6 +8,7 @@ button {
   box-shadow: none;
   border: none;
   border-radius: 10px;
+  transition: background-color 0.6s ease, scale 0.3s ease;
   &:hover {
     background-color: $btn-bg-colhover;
     cursor: pointer;
@@ -17,10 +18,14 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: $btn-plr;
   button {
     margin-left: $btn-plr;
     margin-right: $btn-plr;
     margin-top: $btn-ptb;
     margin-bottom: $btn-ptb;
+    &:hover {
+      scale: 1.2;
+    }
   }
 }
