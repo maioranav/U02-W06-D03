@@ -227,6 +227,9 @@ main #home > img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+main p {
+  line-height: 1.7em;
+}
 main #aboutme {
   display: flex;
   margin-bottom: 20px;

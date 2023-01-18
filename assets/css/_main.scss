@@ -41,6 +41,9 @@ main {
       object-fit: cover;
     }
   }
+  p {
+    line-height: $plineh;
+  }
   #aboutme {
     display: flex;
     margin-bottom: $btn-plr;
