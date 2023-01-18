@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+$h-font: "Poppins", sans-serif !default;
+$text-font: "Roboto", sans-serif !default;
+$header-bg: #555555 !default;
+$head-txt: #f2f2f2 !default;
+$head-ahover: rgb(194, 0, 81) !default;
+$head-aactive: rgb(194, 0, 81) !default;
+$navlogoh: 50px !default;
+$nav-padding: 20px !default;
+$navlipad: 20px !default;
+$body-bg: #222222 !default;
+$text-col: #f2f2f2 !default;
+$btn-bg-col: rgb(194, 0, 81) !default;
+$btn-text: #f2f2f2 !default;
+$btn-plr: 20px !default;
+$btn-ptb-mult: 0.5 !default;
+$form-bg: #555555 !default;
+$h1size: 30px !default;
+$h2-6multip: 0.9 !default;
+
+//calcolate
+$btn-ptb: $btn-plr * $btn-ptb-mult !default;
+$h2size: $h1size * $h2-6multip !default;
+$h3size: $h2size * $h2-6multip !default;
+$h4size: $h3size * $h2-6multip !default;
+$h5size: $h4size * $h2-6multip !default;
+$h6size: $h5size * $h2-6multip !default;
