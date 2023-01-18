@@ -15,6 +15,7 @@ main {
     font-size: $h2size;
   }
   h3 {
+    padding: $btn-plr;
     font-size: $h3size;
   }
   h4 {
@@ -25,5 +26,30 @@ main {
   }
   h2 {
     font-size: $h5size;
+  }
+  #home {
+    display: block;
+    width: 100vw;
+    > img {
+      width: 100%;
+      aspect-ratio: 5/1;
+      object-fit: cover;
+    }
+  }
+  #aboutme {
+    display: flex;
+    margin-bottom: $btn-plr;
+    justify-content: space-between;
+    align-items: flex-start;
+    > p {
+      padding: $btn-plr;
+      padding-top: 0;
+    }
+    > img {
+      width: 35%;
+      min-width: 150px;
+      aspect-ratio: 1/1;
+      padding-right: $btn-plr;
+    }
   }
 }

@@ -198,6 +198,7 @@ main h2 {
   font-size: 27px;
 }
 main h3 {
+  padding: 20px;
   font-size: 24.3px;
 }
 main h4 {
@@ -208,4 +209,30 @@ main h5 {
 }
 main h2 {
   font-size: 19.683px;
+}
+main #home {
+  display: block;
+  width: 100vw;
+}
+main #home > img {
+  width: 100%;
+  aspect-ratio: 5/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #aboutme {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+main #aboutme > p {
+  padding: 20px;
+  padding-top: 0;
+}
+main #aboutme > img {
+  width: 35%;
+  min-width: 150px;
+  aspect-ratio: 1/1;
+  padding-right: 20px;
 }/*# sourceMappingURL=style.css.map */
