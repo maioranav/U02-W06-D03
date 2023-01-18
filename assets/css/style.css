@@ -181,6 +181,12 @@ nav ul li a:active {
   cursor: pointer;
 }
 
+body,
+main {
+  background-color: #222222;
+  color: #f2f2f2;
+}
+
 main {
   font-family: "Roboto", sans-serif;
 }
@@ -298,7 +304,7 @@ form input {
   padding-bottom: 10px;
 }
 form button[type=reset] {
-  background-color: #b4b4b4;
+  background-color: #f2f2f2;
   color: #474b30;
 }
 form button[type=reset]:hover {
@@ -316,13 +322,13 @@ footer {
   font-family: "Poppins", sans-serif;
   font-size: 17.7147px;
   background-color: #474b30;
-  color: #b4b4b4;
+  color: #f2f2f2;
 }
 footer > p {
   padding: 20px;
 }
 footer a {
-  color: #b4b4b4;
+  color: #f2f2f2;
   text-decoration: none;
 }
 footer a:hover {

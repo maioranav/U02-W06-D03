@@ -1,10 +1,12 @@
 $header-bg: #474b30;
 $head-txt: #b6af48;
 $head-ahover: #9c813c;
-$footer-txt: #b4b4b4;
-$body-bg: #222222;
 $text-col: #f2f2f2;
+$body-bg: #222222;
 $btn-bg-col: #7e9049;
-$btn-bg-colhover: #b6af48;
-$btn-text: #f2f2f2;
-$form-bg: #474b30;
+
+//linked colors overwrite
+$footer-txt: $text-col;
+$btn-bg-colhover: $head-txt;
+$btn-text: $text-col;
+$form-bg: $header-bg;
