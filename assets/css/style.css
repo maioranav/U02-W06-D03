@@ -247,6 +247,7 @@ button {
   box-shadow: none;
   border: none;
   border-radius: 10px;
+  transition: background-color 0.6s ease, scale 0.3s ease;
 }
 button:hover {
   background-color: rgb(201, 70, 125);
@@ -257,10 +258,38 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 20px;
 }
 #btns button {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+#btns button:hover {
+  scale: 1.2;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 17.7147px;
+  background-color: #555555;
+  color: #b4b4b4;
+}
+footer > p {
+  padding: 20px;
+}
+footer a {
+  color: #b4b4b4;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(194, 0, 81);
 }/*# sourceMappingURL=style.css.map */
