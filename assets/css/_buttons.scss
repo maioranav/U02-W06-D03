@@ -1,0 +1,26 @@
+button {
+  padding-left: $btn-plr;
+  padding-right: $btn-plr;
+  padding-top: $btn-ptb;
+  padding-bottom: $btn-ptb;
+  background-color: $btn-bg-col;
+  color: $btn-text;
+  box-shadow: none;
+  border: none;
+  border-radius: 10px;
+  &:hover {
+    background-color: $btn-bg-colhover;
+    cursor: pointer;
+  }
+}
+#btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  button {
+    margin-left: $btn-plr;
+    margin-right: $btn-plr;
+    margin-top: $btn-ptb;
+    margin-bottom: $btn-ptb;
+  }
+}

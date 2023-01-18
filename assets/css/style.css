@@ -235,4 +235,32 @@ main #aboutme > img {
   min-width: 150px;
   aspect-ratio: 1/1;
   padding-right: 20px;
+}
+
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(194, 0, 81);
+  color: #f2f2f2;
+  box-shadow: none;
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgb(201, 70, 125);
+  cursor: pointer;
+}
+
+#btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#btns button {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
