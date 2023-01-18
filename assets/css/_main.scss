@@ -1,0 +1,29 @@
+main {
+  font-family: $text-font;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $h-font;
+  }
+  h1 {
+    font-size: $h1size;
+  }
+  h2 {
+    font-size: $h2size;
+  }
+  h3 {
+    font-size: $h3size;
+  }
+  h4 {
+    font-size: $h4size;
+  }
+  h5 {
+    font-size: $h5size;
+  }
+  h2 {
+    font-size: $h5size;
+  }
+}

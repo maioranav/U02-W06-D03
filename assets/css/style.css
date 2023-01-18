@@ -178,4 +178,34 @@ nav ul li a:hover {
 nav ul li a:active {
   color: rgb(194, 0, 81);
   cursor: pointer;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+}
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  font-family: "Poppins", sans-serif;
+}
+main h1 {
+  font-size: 30px;
+}
+main h2 {
+  font-size: 27px;
+}
+main h3 {
+  font-size: 24.3px;
+}
+main h4 {
+  font-size: 21.87px;
+}
+main h5 {
+  font-size: 19.683px;
+}
+main h2 {
+  font-size: 19.683px;
 }/*# sourceMappingURL=style.css.map */
