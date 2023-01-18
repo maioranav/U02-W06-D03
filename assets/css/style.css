@@ -151,6 +151,7 @@ nav h1 {
   display: flex;
   font-size: 30px;
   align-items: center;
+  cursor: default;
 }
 nav h1 img {
   border-radius: 30px;
