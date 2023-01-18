@@ -1,0 +1,30 @@
+#contacts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $btn-plr * 5;
+}
+form {
+  display: inline-flex;
+  padding: $btn-plr;
+  background-color: $form-bg;
+  color: $head-txt;
+  div {
+    padding: $btn-ptb;
+    &:last-child {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  label,
+  input {
+    display: block;
+    width: 300px;
+  }
+  button[type="reset"] {
+    background-color: $footer-txt;
+    color: $header-bg;
+    &:hover {
+      background-color: $text-col;
+    }
+  }
+}

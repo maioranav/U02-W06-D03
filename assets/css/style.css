@@ -270,6 +270,38 @@ button:hover {
   scale: 1.2;
 }
 
+#contacts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+form {
+  display: inline-flex;
+  padding: 20px;
+  background-color: #555555;
+  color: #f2f2f2;
+}
+form div {
+  padding: 10px;
+}
+form div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+form label,
+form input {
+  display: block;
+  width: 300px;
+}
+form button[type=reset] {
+  background-color: #b4b4b4;
+  color: #555555;
+}
+form button[type=reset]:hover {
+  background-color: #f2f2f2;
+}
+
 footer {
   width: 100%;
   position: fixed;
