@@ -1,0 +1,44 @@
+header,
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $header-bg;
+  color: $head-txt;
+  font-family: $h-font;
+}
+nav {
+  padding: $nav-padding;
+  h1 {
+    display: flex;
+    font-size: $h1size;
+    align-items: center;
+    img {
+      border-radius: 30px;
+      aspect-ratio: 1/1;
+      height: $navlogoh;
+      margin-right: $navlipad;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    li {
+      font-family: $h-font;
+      padding-left: $navlipad;
+      a {
+        color: $head-txt;
+        text-decoration: none;
+        &:hover {
+          color: $head-ahover;
+          cursor: pointer;
+        }
+        &:active {
+          color: $head-ahover;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
