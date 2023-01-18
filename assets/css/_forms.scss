@@ -19,6 +19,8 @@ form {
   input {
     display: block;
     width: 300px;
+    padding-top: $btn-ptb;
+    padding-bottom: $btn-ptb;
   }
   button[type="reset"] {
     background-color: $footer-txt;

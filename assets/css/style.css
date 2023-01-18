@@ -293,6 +293,8 @@ form label,
 form input {
   display: block;
   width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 form button[type=reset] {
   background-color: #b4b4b4;
